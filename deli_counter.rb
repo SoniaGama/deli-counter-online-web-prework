@@ -11,6 +11,7 @@ end
 def take_a_number(array, name)
   counter = 0 
   if array.empty?
+    array.push(name)
     puts "Welcome, #{name}. You are number 1 in line."
   else
     array.push(name)

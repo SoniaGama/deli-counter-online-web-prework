@@ -9,12 +9,12 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  
+  counter = 0 
   if array.empty?
     puts "Welcome, #{name}. You are number 1 in line."
   else
-    array.each_with_index{|names, index| line_current.push("#{index + 1}. #{names}")}
-    puts "Welcome, Grace. You are number 4 in line."
+    array.each{|x| counter + 1 }
+    puts "Welcome, #{name}. You are number #{counter + 1} in line."
   end
   
   El método debe llamar (poner) el nombre de la persona junto con su posición en línea. 

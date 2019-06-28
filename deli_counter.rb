@@ -8,7 +8,7 @@ def line(array)
   end
 end
 
-def take_a_number(array, line_current)
+def take_a_number(array, final_name)
 end
 
 def now_serving(array)

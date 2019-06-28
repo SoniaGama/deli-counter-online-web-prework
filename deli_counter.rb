@@ -13,6 +13,7 @@ def take_a_number(array, name)
   if array.empty?
     puts "Welcome, #{name}. You are number 1 in line."
   else
+    array.push(name)
     array.each{|x| counter + 1 }
     puts "Welcome, #{name}. You are number #{counter + 1} in line."
   end

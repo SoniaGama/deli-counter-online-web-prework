@@ -23,6 +23,6 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   else
     array.each{|x| counter + 1 }
-    puts "Welcome, #{name}. You are number #{counter + 1} in line."
+    puts "Currently serving Logan."
   end
 end

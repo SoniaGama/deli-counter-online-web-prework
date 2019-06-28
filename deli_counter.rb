@@ -3,7 +3,7 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    array.each_with_index{|names, index| line_current.push("#{index + 1}. #{names}")}
+    array.each_with_index{|names, index| line_current.push << "#{index + 1}. #{names}"}
     puts line_current
   end
 end

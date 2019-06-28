@@ -20,7 +20,7 @@ end
 
 def now_serving(array)
   if array.empty?
-    puts "Welcome, #{name}. You are number 1 in line."
+    puts "There is nobody waiting to be served!"
   else
     array.each{|x| counter + 1 }
     puts "Welcome, #{name}. You are number #{counter + 1} in line."

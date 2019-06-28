@@ -14,7 +14,7 @@ def take_a_number(array, name)
     puts "Welcome, #{name}. You are number 1 in line."
   else
     array.push(name)
-    array.each{|x| counter + 1 }
+    array.each{|x| counter+=1 }
     puts "Welcome, #{name}. You are number #{counter} in line."
   end
 end

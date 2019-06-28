@@ -14,3 +14,5 @@ end
 def take_a_number(array, line_current)
 end
 
+def now_serving(array)
+end

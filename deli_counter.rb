@@ -8,9 +8,9 @@ def line(array)
   end
 end
 
-def take_a_number(array, final_name)
+def take_a_number(array, name)
   if array.empty?
-    puts "The line is currently empty."
+    puts "Welcome, #{name}. You are number 1 in line."
   else
     array.each_with_index{|names, index| line_current.push("#{index + 1}. #{names}")}
     puts line_current

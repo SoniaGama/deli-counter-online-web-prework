@@ -16,10 +16,6 @@ def take_a_number(array, name)
     array.each{|x| counter + 1 }
     puts "Welcome, #{name}. You are number #{counter + 1} in line."
   end
-  
-  El método debe llamar (poner) el nombre de la persona junto con su posición en línea. 
-Sugerencia: recuerde que a las personas les gusta contar desde 1, no desde 0 ("cero") 
-como las computadoras.
 end
 
 def now_serving(array)
